@@ -814,6 +814,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tvDate
 id tvText
 id tvUsername
 id uniform

@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.codepath.oauth.OAuthBaseClient;
 import com.github.scribejava.apis.TwitterApi;
@@ -49,6 +50,7 @@ public class TwitterClient extends OAuthBaseClient {
 		params.put("count", 25);
 		params.put("since_id", 1);
 		client.get(apiUrl, params, handler);
+		Log.d("URL", apiUrl);
 	}
 
 	public void sendTweet(String message, AsyncHttpResponseHandler handler) {
