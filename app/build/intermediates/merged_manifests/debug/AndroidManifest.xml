@@ -21,6 +21,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.codepath.apps.restclienttemplate.Activities.composeActivity" />
         <activity android:name="com.codepath.apps.restclienttemplate.Activities.TimelineActivity" />
         <activity
             android:name="com.codepath.apps.restclienttemplate.Activities.LoginActivity"
