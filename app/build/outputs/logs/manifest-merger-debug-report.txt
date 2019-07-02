@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57bae4e2cb0f1c10ec1c2daad12f4770/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2c7a7cad1d44345d42864e1b546a4d03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1a4788db70fdffc94772cd2b612ebda0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/d2c635c77005821de53496aadf9e0357/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/3046e1e523320425f6551090c287709a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/71e06931c5878d4fddeba8fa2cc60c58/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/e8f50545f59fd21532e49bb3f6ebdce4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4ac49ec99cc771a299639996c4dcae4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/c920485f0f9712e95b8049385400cd99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a86beeb351745c0b966dcc9a15531f7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/173ebbb4fe79a0569327361bc4efea07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57365409f01b25931ab99c93b2a4e64d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/53a33f8bd046d9d6a79b5769a76ffe29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/5ee0b7d922be3923ef19cc68d5ed8fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/58e7829022cbe1c604688380c8c2f1fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2ea52c0625ad78367f0aeb7b4255df45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/8f3fc50c065d9cc0a025b5406dcb579c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/688148e4d53d7f297b3664728a4ff601/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1ec7af76bd467f9476252c5497292174/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/83b8691c2ff67e84c94a74b0006c85fb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/f27f1e1479a17e2d8207feaa243a14e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7bbedcd7b4702f35393584ee3a6ae708/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4d4deb63f664747a19aeba6414f408ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b0f2642ceae32548807eb7126a5fc560/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7ec4d2a2572409d8722ded5616d6720a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/85274e28205dac2944d582e6026d56bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/524f1e758bcf9c3e2c5427d18be50cea/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/358f109c62fc101a5c933bc33918538e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b5d4683120ea9620a4f14c1d1cc984c4/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/8f3fc50c065d9cc0a025b5406dcb579c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/8f3fc50c065d9cc0a025b5406dcb579c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.Activities.TimelineActivity
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:9-74
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:19-62
+activity#com.codepath.apps.restclienttemplate.Activities.LoginActivity
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:19:9-38:20
+	android:label
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:20:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:26:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:28:13-37:29
+action#android.intent.action.VIEW
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:31:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:27-75
+data
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:34:17-36:62
+	android:host
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:35:21-55
+	android:scheme
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:36:21-59
+uses-sdk
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57bae4e2cb0f1c10ec1c2daad12f4770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57bae4e2cb0f1c10ec1c2daad12f4770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2c7a7cad1d44345d42864e1b546a4d03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2c7a7cad1d44345d42864e1b546a4d03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1a4788db70fdffc94772cd2b612ebda0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1a4788db70fdffc94772cd2b612ebda0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/d2c635c77005821de53496aadf9e0357/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/d2c635c77005821de53496aadf9e0357/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/3046e1e523320425f6551090c287709a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/3046e1e523320425f6551090c287709a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/71e06931c5878d4fddeba8fa2cc60c58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/71e06931c5878d4fddeba8fa2cc60c58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/e8f50545f59fd21532e49bb3f6ebdce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/e8f50545f59fd21532e49bb3f6ebdce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4ac49ec99cc771a299639996c4dcae4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4ac49ec99cc771a299639996c4dcae4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/c920485f0f9712e95b8049385400cd99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/c920485f0f9712e95b8049385400cd99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a86beeb351745c0b966dcc9a15531f7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a86beeb351745c0b966dcc9a15531f7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/173ebbb4fe79a0569327361bc4efea07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/173ebbb4fe79a0569327361bc4efea07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57365409f01b25931ab99c93b2a4e64d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/57365409f01b25931ab99c93b2a4e64d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/53a33f8bd046d9d6a79b5769a76ffe29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/53a33f8bd046d9d6a79b5769a76ffe29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/5ee0b7d922be3923ef19cc68d5ed8fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/5ee0b7d922be3923ef19cc68d5ed8fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/58e7829022cbe1c604688380c8c2f1fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/58e7829022cbe1c604688380c8c2f1fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2ea52c0625ad78367f0aeb7b4255df45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/2ea52c0625ad78367f0aeb7b4255df45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/fc13d4ba130a19560789347e22f4fdab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/8f3fc50c065d9cc0a025b5406dcb579c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/8f3fc50c065d9cc0a025b5406dcb579c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/688148e4d53d7f297b3664728a4ff601/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/688148e4d53d7f297b3664728a4ff601/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1ec7af76bd467f9476252c5497292174/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/1ec7af76bd467f9476252c5497292174/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/83b8691c2ff67e84c94a74b0006c85fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/83b8691c2ff67e84c94a74b0006c85fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/f27f1e1479a17e2d8207feaa243a14e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/f27f1e1479a17e2d8207feaa243a14e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7bbedcd7b4702f35393584ee3a6ae708/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7bbedcd7b4702f35393584ee3a6ae708/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4d4deb63f664747a19aeba6414f408ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/4d4deb63f664747a19aeba6414f408ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b0f2642ceae32548807eb7126a5fc560/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b0f2642ceae32548807eb7126a5fc560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7ec4d2a2572409d8722ded5616d6720a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7ec4d2a2572409d8722ded5616d6720a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/85274e28205dac2944d582e6026d56bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/85274e28205dac2944d582e6026d56bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/524f1e758bcf9c3e2c5427d18be50cea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/524f1e758bcf9c3e2c5427d18be50cea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/358f109c62fc101a5c933bc33918538e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/358f109c62fc101a5c933bc33918538e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b5d4683120ea9620a4f14c1d1cc984c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b5d4683120ea9620a4f14c1d1cc984c4/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
