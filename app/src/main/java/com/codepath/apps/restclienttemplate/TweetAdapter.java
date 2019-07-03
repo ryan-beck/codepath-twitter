@@ -66,6 +66,10 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public TextView tvUsername;
         public TextView tvBody;
         public TextView tvDate;
+        public ImageView ivReply;
+        public ImageView ivRetweet;
+        public ImageView ivLike;
+        public ImageView ivShare;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -74,6 +78,20 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvUsername = itemView.findViewById(R.id.tvUsername);
             tvBody = itemView.findViewById(R.id.tvText);
             tvDate = itemView.findViewById(R.id.tvDate);
+            ivReply = itemView.findViewById(R.id.ivReply);
+            ivRetweet = itemView.findViewById(R.id.ivRetweet);
+            ivLike = itemView.findViewById(R.id.ivLike);
+            ivShare = itemView.findViewById(R.id.ivShare);
+
+            ivLike.setOnClickListener(new View.OnClickListener(){
+                public void onClick(View v) {
+
+                }
+            });
+
+            //TODO: ivRetweet onClick
+            //TODO: ivReply onClick
+            //TODO: ivShare onClick
         }
     }
 
