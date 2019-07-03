@@ -6,6 +6,7 @@ INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManif
 INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2385d4defd3a2138435fd7a7e58af93/AndroidManifest.xml:2:1-12:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:2:1-13:12
@@ -142,6 +143,8 @@ MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2385d4defd3a2138435fd7a7e58af93/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2385d4defd3a2138435fd7a7e58af93/AndroidManifest.xml:8:5-10:41
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/7820966b203a501f17d0ef5910692082/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:5:5-7:41

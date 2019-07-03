@@ -9,8 +9,12 @@
     </style>
 
     <!-- Application theme. -->
+
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorPrimary">#ff1da1f2</item>
+        <item name="colorPrimaryDark">#ff1da1f2</item>
+        <item name="colorAccent">#D50000</item>
     </style>
 
 </resources>

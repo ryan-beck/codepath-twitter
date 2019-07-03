@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
@@ -18,6 +19,8 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
+
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> {
 
 
@@ -34,12 +37,14 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         LayoutInflater inflater = LayoutInflater.from(context);
 
         View tweetView = inflater.inflate(R.layout.tweet_layout, viewGroup, false);
-        ViewHolder viewHolder = new ViewHolder(tweetView);
+        ViewHolder viewHolder = new ViewHolder(tweetView, mTweets.get(i));
         return viewHolder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+        Drawable myDrawableHeart;
+        Drawable myDrawableRetweet;
         Tweet tweet = mTweets.get(i);
 
         viewHolder.tvUsername.setText(tweet.user.name);
@@ -48,10 +53,24 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
 
         Glide.with(context)
                 .load(tweet.user.profileImageUrl)
-                //.bitmapTransform(new RoundedCornersTransformation(context, 30, 0))
+                .bitmapTransform(new RoundedCornersTransformation(context, 30, 0))
                 //.placeholder(placeHolderId)
                 .into(viewHolder.ivProfilePic);
 
+        // Setting favorite button icon
+        if(tweet.isLiked) {
+            myDrawableHeart = context.getResources().getDrawable(R.drawable.ic_vector_heart);
+        } else {
+            myDrawableHeart = context.getResources().getDrawable(R.drawable.ic_vector_heart_stroke);
+        }
+        viewHolder.ivLike.setImageDrawable(myDrawableHeart);
+
+        if(tweet.isRetweeted) {
+            myDrawableRetweet = context.getResources().getDrawable(R.drawable.ic_vector_retweet);
+        } else {
+            myDrawableRetweet = context.getResources().getDrawable(R.drawable.ic_vector_retweet_stroke);
+        }
+        viewHolder.ivRetweet.setImageDrawable(myDrawableRetweet);
 
     }
 
@@ -62,6 +81,8 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
+        //public Tweet tweet;
+
         public ImageView ivProfilePic;
         public TextView tvUsername;
         public TextView tvBody;
@@ -71,8 +92,10 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public ImageView ivLike;
         public ImageView ivShare;
 
-        public ViewHolder(@NonNull View itemView) {
+        public ViewHolder(@NonNull final View itemView, final Tweet tweet) {
             super(itemView);
+
+            //this.tweet = tweet;
 
             ivProfilePic = itemView.findViewById(R.id.ivProfilePic);
             tvUsername = itemView.findViewById(R.id.tvUsername);
@@ -84,12 +107,34 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             ivShare = itemView.findViewById(R.id.ivShare);
 
             ivLike.setOnClickListener(new View.OnClickListener(){
+                Drawable myDrawable;
+                //TODO: Create post request to actually favorite tweet
                 public void onClick(View v) {
-
+                    if(!tweet.isLiked) {
+                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart);
+                    } else {
+                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart_stroke);
+                    }
+                    tweet.isLiked = !tweet.isLiked;
+                    ivLike.setImageDrawable(myDrawable);
                 }
             });
 
             //TODO: ivRetweet onClick
+
+            ivRetweet.setOnClickListener(new View.OnClickListener() {
+                Drawable myDrawable;
+                public void onClick(View v) {
+                    if(!tweet.isRetweeted) {
+                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet);
+                    } else {
+                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet_stroke);
+                    }
+                    tweet.isRetweeted = !tweet.isRetweeted;
+                    ivRetweet.setImageDrawable(myDrawable);
+                }
+            });
+
             //TODO: ivReply onClick
             //TODO: ivShare onClick
         }
