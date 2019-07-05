@@ -41,6 +41,8 @@ public class TimelineActivity extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeContainer;
 
+    MenuItem miActionProgressItem;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +55,6 @@ public class TimelineActivity extends AppCompatActivity {
         tweetAdapter = new TweetAdapter(tweets);
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
         rvTweets.setAdapter(tweetAdapter);
-        populateTimeline();
 
 
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
@@ -141,6 +142,7 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     private void populateTimeline() {
+        showProgressBar();
         client.getHomeTimeline(new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
@@ -155,6 +157,7 @@ public class TimelineActivity extends AppCompatActivity {
                     }
 
                 }
+                hideProgressBar();
             }
 
             @Override
@@ -166,20 +169,42 @@ public class TimelineActivity extends AppCompatActivity {
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 Log.d("TwitterClient", responseString);
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
         });
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // Store instance of the menu item containing progress
+        miActionProgressItem = menu.findItem(R.id.miActionProgress);
+        populateTimeline();
+        // Return to finish
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    public void showProgressBar() {
+        // Show progress item
+        miActionProgressItem.setVisible(true);
+    }
+
+    public void hideProgressBar() {
+        // Hide progress item
+        miActionProgressItem.setVisible(false);
     }
 
 

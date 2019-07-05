@@ -1,8 +1,10 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
@@ -107,31 +109,39 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             ivShare = itemView.findViewById(R.id.ivShare);
 
             ivLike.setOnClickListener(new View.OnClickListener(){
-                Drawable myDrawable;
+                Drawable wrappedDrawable;
                 //TODO: Create post request to actually favorite tweet
                 public void onClick(View v) {
                     if(!tweet.isLiked) {
-                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart);
+                        Drawable myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart);
+                        wrappedDrawable = DrawableCompat.wrap(myDrawable);
+                        DrawableCompat.setTint(wrappedDrawable, Color.RED);
                     } else {
-                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart_stroke);
+                        Drawable myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_heart_stroke);
+                        wrappedDrawable = DrawableCompat.wrap(myDrawable);
+                        DrawableCompat.setTint(wrappedDrawable, Color.BLACK);
                     }
                     tweet.isLiked = !tweet.isLiked;
-                    ivLike.setImageDrawable(myDrawable);
+                    ivLike.setImageDrawable(wrappedDrawable);
                 }
             });
 
             //TODO: ivRetweet onClick
 
             ivRetweet.setOnClickListener(new View.OnClickListener() {
-                Drawable myDrawable;
+                Drawable wrappedDrawable;
                 public void onClick(View v) {
                     if(!tweet.isRetweeted) {
-                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet);
+                        Drawable myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet);
+                        wrappedDrawable = DrawableCompat.wrap(myDrawable);
+                        DrawableCompat.setTint(wrappedDrawable, Color.parseColor("#ff1da1f2"));
                     } else {
-                        myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet_stroke);
+                        Drawable myDrawable = itemView.getResources().getDrawable(R.drawable.ic_vector_retweet_stroke);
+                        wrappedDrawable = DrawableCompat.wrap(myDrawable);
+                        DrawableCompat.setTint(wrappedDrawable, Color.BLACK);
                     }
                     tweet.isRetweeted = !tweet.isRetweeted;
-                    ivRetweet.setImageDrawable(myDrawable);
+                    ivRetweet.setImageDrawable(wrappedDrawable);
                 }
             });
 
