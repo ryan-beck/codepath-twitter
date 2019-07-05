@@ -660,6 +660,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable edit_text_rounded
 drawable ic_launcher
 drawable ic_vector_close
 drawable ic_vector_compose
@@ -738,6 +739,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnReply
 id btnSend
 id buttonPanel
 id cancel_action
@@ -762,6 +764,7 @@ id disableHome
 id edit_query
 id end
 id end_padder
+id etReplyText
 id etTweetInput
 id expand_activities_button
 id expanded_menu
@@ -783,6 +786,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivLike
+id ivProfile
 id ivProfilePic
 id ivReply
 id ivRetweet
@@ -862,8 +866,11 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tvCh
+id tvCharCount
 id tvCharacterCount
 id tvDate
+id tvReplyTo
 id tvText
 id tvUsername
 id uniform
@@ -908,6 +915,7 @@ layout abc_tooltip
 layout action_view_progress
 layout activity_compose
 layout activity_login
+layout activity_reply
 layout activity_timeline
 layout notification_action
 layout notification_action_tombstone

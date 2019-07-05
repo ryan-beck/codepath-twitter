@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/9a231de0a1b37a8985181f0d6bd6367a/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2af62ddf279df7bcc3a33e847122646/AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a2385d4defd3a2138435fd7a7e58af93/AndroidManifest.xml:2:1-12:12
@@ -40,9 +40,9 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ryanbeck/.
 MERGED from [com.android.support:print:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/524f1e758bcf9c3e2c5427d18be50cea/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/358f109c62fc101a5c933bc33918538e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/b5d4683120ea9620a4f14c1d1cc984c4/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
@@ -66,7 +66,7 @@ ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-39:19
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-40:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/a996321f19f782a9883c4d962bd0a86e/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ryanbeck/.gradle/caches/transforms-2/files-2.1/dcebb5ab9d4c6c749d31ccca39ea3d91/AndroidManifest.xml:11:5-20
@@ -89,52 +89,56 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ryanbeck/.gr
 		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:16:9-44
 	android:name
 		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.Activities.ReplyActivity
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:17:9-71
+	android:name
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:17:19-59
 activity#com.codepath.apps.restclienttemplate.Activities.composeActivity
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:17:9-73
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:17:19-61
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:19-61
 activity#com.codepath.apps.restclienttemplate.Activities.TimelineActivity
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:9-65
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:19:9-65
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:18:19-62
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:19:19-62
 activity#com.codepath.apps.restclienttemplate.Activities.LoginActivity
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:19:9-38:20
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:20:9-39:20
 	android:label
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:22:13-45
 	android:theme
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:20:13-53
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:27:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:28:13-37:29
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:29:13-38:29
 action#android.intent.action.VIEW
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:17-76
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:31:27-73
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:17-78
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:33:17-78
 	android:name
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:32:27-75
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:33:27-75
 data
-ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:34:17-36:62
+ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:35:17-37:62
 	android:host
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:35:21-55
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:36:21-55
 	android:scheme
-		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:36:21-59
+		ADDED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml:37:21-59
 uses-sdk
 INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ryanbeck/Desktop/codepath-twitter/app/src/main/AndroidManifest.xml
