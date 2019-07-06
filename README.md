@@ -27,7 +27,7 @@ The following **stretch** features are implemented:
 * [x] User can **select "reply" from detail view to respond to a tweet**
   * [x] User that wrote the original tweet is **automatically "@" replied in compose**
 * [ ] User can tap a tweet to **open a detailed tweet view**
-  * [x] User can **take favorite (and unfavorite) or reweet** actions on a tweet
+* [x] User can see change in color of like and retweet buttons
 * [ ] User can **see embedded image media within a tweet** on list or detail view.
 
 The following **bonus** features are implemented:
@@ -47,7 +47,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ryan-beck/codepath-twitter/blob/master/Twiiter-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
